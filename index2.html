@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript Quiz</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+<div class="jumbotron fluid" style="background-color: dodgerblue;color: white">
+	<h1 class="text-center"><b>Javascript Quiz App</b></h1>
+</div>
+<div class="container">
+  <h2>Javascript Quiz</h2>
+  <h4>Choose The Correct Answer</h4>
+  <form name="quizForm" onsubmit="return submitAnswers()">
+  <div class="panel-group">
+    <div class="panel panel-primary">
+      <div class="panel-heading"><span class="badge">1</span> &nbsp;Inside which HTML element do we put the JavaScript?</div>
+      <div class="panel-body">
+      	<div class="radio">
+      <label><input type="radio" value="a" id="q1a" name="question1">< Js ></label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" value="b" id="q1b" name="question1">< Scripting ></label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" value="c" id="q1c" name="question1">< Script ></label>
+    </div>
+      <div class="radio">
+      <label><input type="radio" value="c" id="q1d" name="question1">< Javascript ></label>
+    </div>
+      </div>
+    </div>
+    <div class="panel panel-primary" style="margin-top: 20px;">
+      <div class="panel-heading"><span class="badge">2</span> &nbsp;Where is the correct place to insert a javascript?</div>
+      <div class="panel-body">
+      	<div class="radio">
+      <label><input type="radio" value="a" id="q2a" name="question2">Body</label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" value="b" id="q2b" name="question2">Head</label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" value="c" id="q2c" name="question2">Head & Body both</label>
+    </div>
+      <div class="radio">
+      <label><input type="radio" value="d" id="q2d" name="question2">None of Above</label>
+    </div>
+      </div>
+    </div>
+
+    <div class="panel panel-primary" style="margin-top: 20px;">
+      <div class="panel-heading"><span class="badge">3</span> &nbsp;The external JavaScript file must contain the script tag.</div>
+      <div class="panel-body">
+      	<div class="radio">
+      <label><input type="radio" value="a" id="q3a" name="question3">True</label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" value="b" id="q3b" name="question3">False</label>
+    </div>
+      </div>
+    </div>
+
+    <div class="panel panel-primary" style="margin-top: 20px;">
+      <div class="panel-heading"><span class="badge">4</span> &nbsp;How would you write "Hello" in an alert box?</div>
+      <div class="panel-body">
+      	<div class="radio">
+      <label><input type="radio" value="a" id="q4a" name="question4">msg("Hello")</label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" value="b" id="q4b" name="question4">alertBox("Hello");</label>
+    </div>
+     <div class="radio">
+      <label><input type="radio" value="c" id="q4c" name="question4">document.write("Hello");</label>
+    </div>
+     <div class="radio">
+      <label><input type="radio" value="d" id="q4d" name="question4">alert("Hello");</label>
+    </div>
+      </div>
+    </div>
+    <div class="panel panel-primary" style="margin-top: 20px;">
+      <div class="panel-heading"><span class="badge">5</span> &nbsp;JavaScript is the same as Java.</div>
+      <div class="panel-body">
+      	<div class="radio">
+      <label><input type="radio" value="a" id="q5a" name="question5">True</label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" value="b" id="q5b" name="question5">False</label>
+    </div>
+      </div>
+    </div>
+  </div>
+  		  <input type="submit" value="Finish" class="btn btn-primary btn-lg btn-block" style="outline: none; border:none;">
+  </form>
+    <div id="results"></div>
+</div>
+<div class="container" style="margin-top: 50px;"></div>
+	<div class="container-fluid" style="background-color: dodgerblue;color: white; text-align: center;">
+				<p>Made By Itrat Zehra Jassani</p>
+	</div>
+</body>
+</html>
